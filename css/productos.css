@@ -1,0 +1,98 @@
+body{
+    background-image: url("../img/wood-1759566.jpg") ;
+
+}
+header{
+    background-image: url("../img/marble-2398946.jpg");
+}
+#ImagenTitulo{
+    width: 8%;
+    margin: 5px;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 465px;
+}
+nav li{
+    display: inline;   
+    margin: 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(129, 0, 0);
+}
+/*position absolute : posicion no afectada por los otros elementos - solo la pagina*/
+/*div al centro : es mejor auto*/
+.productos {
+    width: 840px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: rgb(243, 243, 243);
+    margin: 0 1.5%;
+    padding: 30px 20px;
+
+    /*Tamano de la caja*/
+    box-sizing: border-box;/*borde de la caja sera definido*/
+    /*borde de cada caja sera el limite*/
+
+
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 55px;
+}
+#cabello{
+    width: 160px;
+}
+#barba{
+    width: 160px;
+}
+#barbaycabello{
+    width: 160px;
+}
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.productos li:hover{
+    border-color: rgb(129, 0, 0);    
+}
+.productos li:active{
+    border-color: rgb(0, 0, 73);
+}
+.productos li:hover h2{
+    font-size: 30px;
+}
+.Descripcion{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer{
+    background-image: url("../img/marble-2398946.jpg");
+    text-align: center;
+}
+.imagen{
+    width: 10%;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+

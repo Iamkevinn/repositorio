@@ -1,0 +1,102 @@
+*{
+    letter-spacing: 2px;
+}
+body{
+    background-image: url("../img/wood-1759566.jpg") ;
+
+}
+header{
+    background-image: url("../img/marble-2398946.jpg");
+}
+#ImagenTitulo{
+    width: 8%;
+    margin: 5px;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 465px;
+}
+nav li{
+    display: inline;   
+    margin: 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(129, 0, 0);
+}
+main{
+    margin: 15px;
+    padding: 50px;
+    background-color: rgb(228, 228, 228);
+}
+form label, form p{
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    margin: 15px;
+}
+.input-padron{
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+    margin-left: 75px;
+}
+
+form textarea, select{
+    margin-left: 75px;
+}
+footer{
+    background-image: url("../img/marble-2398946.jpg");
+    text-align: center;
+}
+.imagen{
+    width: 10%;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.checkbox{
+    margin: 20px;
+}
+#input-enviar{
+    margin-left: 30px;
+    margin-bottom: 25px;
+    width: 30%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 72, 21);
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+form p{
+    font-weight: bold;
+    
+    color: rgb(38, 2, 2);
+}
+#input-enviar:hover{
+    background-color: rgb(185, 46, 0);
+    /*Se ejecuta la misma linea, sino sera solo la ultima*/
+    transform: scale(1.1) rotate(10deg);
+}
+table{
+    margin: 1px;
+}
+thead{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+table td, table th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}   
